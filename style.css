@@ -2,18 +2,17 @@ body{
     background-color: black;
     color: white;
     display: flex;
-    flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     margin: 0;
+
     
 }
 div.foto{
-    background-color: aqua;
-    width: 350px;
-    
+    background-color: #460065;
+    width: 280px;
     max-width: 100vw;
-    height: 350px;
+    height: 280px;
     border-radius: 100%;
     margin: auto;  
 }
@@ -25,7 +24,7 @@ a{
 .topnav{
     width: 100%;
     max-width: 100vw;
-    background-color: blueviolet;
+    background-color: #460065;
     display: flex;
     position: fixed;
     top: 0;
@@ -33,15 +32,15 @@ a{
     margin: auto;
 }
 div.botao{
-    background-color: blueviolet;
+    background-color: #460065;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50px;
-    width: 100px;
+    width: 94px;
 }
 div.botao:hover{
-    background-color:darkslateblue;
+    background-color:#2A0034;
 }
 
 
@@ -51,27 +50,24 @@ div.botao:hover{
     padding-top: 50px;
 }
 #Portifolio h1,h2{
-    width: 100%;
     max-width: 100vw;
     text-align: center;
 }
 #porttext{
-    width: 100%;
     max-width: 100vw;
+   
 }
 #Serviços{
     padding-top: 50px;
     height: 100vh;
-    width: 100%;
     max-width: 100vw;
 }
 #Serviços h1{
-    width: 100%;
     max-width: 100vw;
     text-align: center
 }
 #contatos{
-    background-color: blueviolet;
+    background-color: #460065;
     position: static;
     bottom: 0;
     left: 0;
@@ -79,10 +75,15 @@ div.botao:hover{
     max-width: 100vw;
     text-align: center;
     list-style: none;
-    padding: 0;
+    padding: 10px;
+    margin: 0;
 }
 footer{
     width: 100%;
     max-width: 100vw;
     text-align: center;
+    background-color: #460065;
+    padding: 10px;
+    border-top-style: solid;
+    border-color: #2A0034;
 }
